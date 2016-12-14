@@ -96,6 +96,6 @@ class VoiceOutput(OutputAdapter):
 
         return call_result
 
-    def process_response(self, statement):
+    def process_response(self, statement, confidence=None):
         self.speak(statement.text)
         return statement

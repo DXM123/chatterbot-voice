@@ -1,6 +1,5 @@
 from chatterbot import ChatBot
-from chatterbot.training.trainers import ChatterBotCorpusTrainer
-
+from chatterbot.trainers import ChatterBotCorpusTrainer
 
 bot = ChatBot(
     "Tiberius",
